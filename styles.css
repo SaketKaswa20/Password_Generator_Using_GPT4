@@ -1,0 +1,12 @@
+@keyframes binary {
+  0% {
+    content: "0";
+  }
+  100% {
+    content: "1";
+  }
+}
+
+.binary {
+  animation: binary 0.5s infinite alternate;
+}
